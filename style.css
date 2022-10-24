@@ -1,0 +1,58 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+/* navbar*/
+
+.logo{
+    width: 200px;
+    left: 10%;
+padding: 10px;
+    
+}
+   
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.5);
+align-items: center;
+text-align: right;
+
+}
+.navbar ul{
+    display:flex;
+list-style:none;
+margin:20px 0px;
+
+}
+
+.navbar ul li{
+font-family:century;
+font-family: 1.1rem;
+font-weight: bold;
+
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(240, 240, 240);
+    padding: 8px 25px;
+    transition: all .5s ease;
+
+}
+
+.navbar ul li a:hover{
+
+background-color: rgb(238, 20, 20);
+color: black;
+box-shadow: 0 0 10px white;
+}
